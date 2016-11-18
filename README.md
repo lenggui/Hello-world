@@ -1,5 +1,5 @@
 # Hello-world
-#y first repository！
+# My first repository！
 
 Hi,everybody！
-I want to study English and Python!记录我的每一天！
+I want to study English and Python!Records of my day！
