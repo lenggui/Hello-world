@@ -1,1 +1,24 @@
 # -*- coding: utf-8 -*-
+class student(object):
+    def __init__(self,name,socer):
+        self._name = name
+        self._socer = socer
+    def print_socer(self):
+        return ('%s:%s' % (self._name,self._socer))
+    def get_grade(self):
+        if 100 >= self._socer >=90:
+            return 'A'
+        elif self._socer >= 80:
+            return 'B'
+        elif self._socer >=70:
+            return 'C'
+        elif self._socer >=60:
+            return 'D'
+        elif 60 < self._socer >= 0:
+            return 'Fail'
+        else:
+            return 'Error'
+
+bart = student('Lenggui',90)
+bart.print_socer()
+bart.get_grade()
